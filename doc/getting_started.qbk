@@ -12,6 +12,16 @@ following command:
 git clone git://github.com/kylelutz/compute.git
 ``
 
+Ubuntu users can install Boost.Compute from the PPA:
+
+``
+# add the boost.compute ppa
+sudo add-apt-repository ppa:kylelutz/compute
+
+# update and install boost-compute
+sudo apt-get update && sudo apt-get install boost-compute
+``
+
 [section Compilation and Usage]
 
 Boost.Compute is a header-only library, so no linking is required. To use the
